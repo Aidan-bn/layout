@@ -49,7 +49,7 @@ class Home extends StatelessWidget {
 
   Image _buildJournalHeaderImage() {
     return Image(
-      image: AssetImage('assets/images/immg1.jpg'),
+      image: AssetImage('assets/images/img1.jpg'),
       fit: BoxFit.cover,
     );
   }
@@ -123,6 +123,7 @@ class Home extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       crossAxisAlignment: CrossAxisAlignment.start,
+<<<<<<< HEAD
       children: <Widget>[
         CircleAvatar(
           backgroundImage: AssetImage('assets/images/salmon.jpg'),
@@ -134,17 +135,38 @@ class Home extends StatelessWidget {
         ),
         CircleAvatar(
           backgroundImage: AssetImage('assets/images/strawberries.jpg'),
+=======
+      children: [
+        CircleAvatar(
+          backgroundImage: AssetImage('assets/images/img2.jpg'),
+          radius: 40.0,
+        ),
+        CircleAvatar(
+          backgroundImage: AssetImage('assets/images/img3.jpg'),
+          radius: 40.0,
+        ),
+        CircleAvatar(
+          backgroundImage: AssetImage('assets/images/img4.jpg'),
+>>>>>>> 7eff31a (Finalize layout arrangement)
           radius: 40.0,
         ),
         SizedBox(
           width: 100.0,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.end,
+<<<<<<< HEAD
             children: <Widget>[
               Icon(Icons.cake),
               Icon(Icons.star_border),
               Icon(Icons.music_note),
               //Icon(Icons.movie),
+=======
+            children: [
+              Icon(Icons.cake),
+              Icon(Icons.star_border),
+              Icon(Icons.music_note),
+              Icon(Icons.movie),
+>>>>>>> 7eff31a (Finalize layout arrangement)
             ],
           ),
         ),
